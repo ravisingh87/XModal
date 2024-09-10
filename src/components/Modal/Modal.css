@@ -1,0 +1,43 @@
+.modal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: block;
+  z-index: 1;
+}
+
+.modal-content {
+  width: 40%;
+  background: #ffffff;
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  gap: 10px;
+}
+input {
+  width: 70%;
+  height: 1.5rem;
+  border: 1px solid #c7c7c7;
+  border-radius: 5px;
+  padding: 8px;
+}
+label {
+  font-size: 15px;
+  font-weight: 700;
+}
